@@ -1,5 +1,11 @@
 /* Responsive Layout Rules for Tablet & Mobile */
 
+@media (min-width: 821px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
 @media (max-width: 1024px) {
   .kpi-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -36,7 +42,17 @@
   }
 
   .topbar {
-    padding: 0 16px;
+    min-height: var(--topbar-height);
+    height: auto;
+    padding: 10px 16px;
+  }
+
+  .topbar-title {
+    font-size: 1.1rem;
+  }
+
+  .topbar-subtitle {
+    font-size: 0.75rem;
   }
 
   .topbar-actions .desktop-label {

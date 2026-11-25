@@ -111,6 +111,7 @@ PLANTCARE-SMART-PLANT-CARE-MANAGEMENT-SYSTEM/
 │       └── ui.js
 ├── tests/
 │   ├── dateUtils.test.js
+│   ├── domIntegration.test.js
 │   ├── engine.test.js
 │   └── storageAndRecommendations.test.js
 └── docs/
@@ -120,7 +121,8 @@ PLANTCARE-SMART-PLANT-CARE-MANAGEMENT-SYSTEM/
     ├── TECHNOLOGY_STACK.md
     ├── INSTALLATION_GUIDE.md
     ├── TESTING_REPORT.md
-    └── FUTURE_SCOPE.md
+    ├── FUTURE_SCOPE.md
+    └── screenshots/
 ```
 
 ## Installation & Running the Application
@@ -147,7 +149,37 @@ See [docs/INSTALLATION_GUIDE.md](docs/INSTALLATION_GUIDE.md) for detailed instru
 
 ## Screenshots
 
-Screenshots of the running application (Dashboard, My Plants, Care Calendar, Reminders, Growth Diary Before/After Comparison, Recommendations, Rewards, Care Insights, and Settings) can be captured from `npm run preview` during project evaluation and placed under `docs/screenshots/`.
+All screenshots below were captured from the live production bundle (`vite preview`) running in headless Chrome.
+
+### 1. Dashboard & Weekly Progress
+![PlantCare Dashboard](docs/screenshots/dashboard.png)
+
+### 2. My Plants Inventory
+![PlantCare My Plants](docs/screenshots/plants.png)
+
+### 3. Care Calendar & Daily Schedule
+![PlantCare Care Calendar](docs/screenshots/calendar.png)
+
+### 4. Priority-Based Reminder Centre
+![PlantCare Reminders](docs/screenshots/reminders.png)
+
+### 5. Growth Diary & Before-and-After Comparison
+![PlantCare Growth Diary](docs/screenshots/growth-diary.png)
+
+### 6. Rule-Based Plant Care Recommendations
+![PlantCare Recommendations](docs/screenshots/recommendations.png)
+
+### 7. Rewards & Care Streaks
+![PlantCare Rewards](docs/screenshots/rewards.png)
+
+### 8. Care Insights & Analytics
+![PlantCare Care Insights](docs/screenshots/insights.png)
+
+### 9. Settings, Export/Import & Local Storage Transparency
+![PlantCare Settings](docs/screenshots/settings.png)
+
+### 10. Mobile Responsive View (`390×844`)
+<img src="docs/screenshots/mobile-dashboard.png" alt="PlantCare Mobile Dashboard" width="320" />
 
 ## Limitations
 
